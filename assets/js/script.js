@@ -74,7 +74,7 @@ function getWeather(citySearched) {
   $("#today").empty();
   $("#forecast").empty();
 
-  var queryUrlCityCoordinates = `http://api.openweathermap.org/geo/1.0/direct?q=${citySearched}&limit=5&appid=3c4f418d697258b26a8f47e2024d5b99`;
+  var queryUrlCityCoordinates = `https://api.openweathermap.org/geo/1.0/direct?q=${citySearched}&limit=5&appid=3c4f418d697258b26a8f47e2024d5b99`;
 
   fetch(queryUrlCityCoordinates)
     .then(function (resp) {
