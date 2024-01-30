@@ -2,7 +2,7 @@
 Module 8 Challege for edX Bootcamp
 
 ## Description
-A weather dashboard displaying today's forecast & those of the next five days.
+A weather dashboard displaying today's forecast & those of the next five days in a city of the user's choice.
 
 ## Usage
 Type in a city name and hit Search. The current weather forecast will be displayed at the top of the page and cards will appear below containing the forecast for the next five days.
